@@ -1,0 +1,7 @@
+
+.card-img {
+    width: 50%;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Esto asegurará que la imagen cubra toda el área sin distorsionarse */
+    margin-bottom: 15px; /* Margen inferior para separar las imágenes del contenido de la carta */
+  }
