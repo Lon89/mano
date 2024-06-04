@@ -20,6 +20,10 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.micro-padding{
+    padding-block: 0.5rem;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -28,6 +32,7 @@ body {
 
 .logo {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -35,7 +40,8 @@ body {
     border-radius: 50%;
 }
 
-.logo-title {
+h1.logo-title {
+    margin: 0;
     margin-left: 10px;
     font-size: 24px;
     font-weight: bold;
