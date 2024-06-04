@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     color: #343a40;
-    padding-top: 70px; /* Espacio para la navbar fija */
+    padding-top: 0px; /* Espacio para la navbar fija */
 }
 
 .header {
