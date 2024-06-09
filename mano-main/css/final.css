@@ -1,0 +1,186 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F8F8;
+    color: #343a40;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de Encabezado */
+.header {
+    background-color: #CFADE0;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.navegation {
+    display: flex;
+    gap: 20px;
+}
+
+.navegation .link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navegation .link ion-icon {
+    margin-right: 5px;
+}
+
+.navegation .link:hover {
+    color: #E0ADC2;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Información sobre las flores */
+.information {
+    background-color: #FFF;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.information h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #CFADE0;
+}
+
+.information h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #E0ADE0;
+}
+
+.information p, .information ul {
+    margin-bottom: 20px;
+}
+
+.information ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.information ul ul {
+    list-style-type: circle;
+}
+
+/* Testimonios */
+.testimonials {
+    background-color: #E0B9AD;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.testimonials h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.testimonial-card {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    color: #343a40;
+}
+
+.testimonial-card h5 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #CFADE0;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #E0ADC2;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

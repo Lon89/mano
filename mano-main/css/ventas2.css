@@ -1,0 +1,150 @@
+/* Animación de las cartas al pasar el cursor */
+.card {
+    margin: 20px;
+    transition: transform 0.3s ease; /* Agregada la animación de transformación */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Reset de estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+   
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #343a40;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.featured-products {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.featured-products .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    z-index: 10;
+    box-shadow: var(--shadow-2);
+    padding-block: 8px;
+}
+
+/* Menu */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    max-width: 1150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-img {
+    border-radius: var(--border-3);
+}
+
+.logo-title {
+    font-size: var(--fs-4);
+    font-weight: var(--fw-500);
+    color: var(--gray);
+}
+
+.navegation {
+    display: flex;
+    gap: 32px;
+}

@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-right: 10px;
+}
+
+.logo-title {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.navegation .link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos de secciones */
+section {
+    margin-bottom: 30px;
+}
+
+section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    line-height: 1.5;
+}
+
+article img {
+    margin-right: 20px;
+    float: left;
+}
+
+/* Estilos de pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+/* Estilos adicionales para la sección de información */
+#informacion {
+    margin-top: 20px;
+}
+
+/* Estilos para las imágenes dentro de los artículos */
+article img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Estilos para la lista de cuidados de rosas en macetas */
+article ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+article ul li::before {
+    content: "\2022"; /* Código Unicode para un punto */
+    color: #ff69b4; /* Color rosa */
+    font-weight: bold;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
