@@ -59,10 +59,15 @@ h1.logo-title {
     font-weight: bold;
     display: flex;
     align-items: center;
+    gap: 4px;
 }
 
 .navegation .link ion-icon {
     margin-right: 5px;
+}
+
+.navegation .link span {
+    height: 21px;
 }
 
 .navegation .link:hover {
