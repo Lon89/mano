@@ -368,8 +368,8 @@ span.button-icon{
 
 .eden{
   background-image: url("/fotos/logonew.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: round;
+  background-size: contain;
   background-position: center;
 }
 
